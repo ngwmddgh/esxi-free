@@ -1,3 +1,0 @@
-for i in `vim-cmd vmsvc/getallvms | cut -d ' ' -f 1`
-do vim-cmd vmsvc/power.shutdown $i
-done
